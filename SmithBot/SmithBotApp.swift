@@ -11,7 +11,8 @@ import SwiftUI
 struct SmithBotApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            LocationView()
         }
     }
 }

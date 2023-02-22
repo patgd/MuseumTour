@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4350174529A6D68D00EBDCF6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350174429A6D68D00EBDCF6 /* LocationManager.swift */; };
+		4350174829A6D9E700EBDCF6 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350174729A6D9E700EBDCF6 /* LocationView.swift */; };
 		43991E3329A6935900084F47 /* SmithBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43991E3229A6935900084F47 /* SmithBotApp.swift */; };
 		43991E3529A6935900084F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43991E3429A6935900084F47 /* ContentView.swift */; };
 		43991E3729A6935900084F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43991E3629A6935900084F47 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4350174429A6D68D00EBDCF6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4350174729A6D9E700EBDCF6 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		43991E2F29A6935900084F47 /* SmithBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmithBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43991E3229A6935900084F47 /* SmithBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmithBotApp.swift; sourceTree = "<group>"; };
 		43991E3429A6935900084F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +30,7 @@
 		43991E4829A69EA300084F47 /* guidedTour1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour1.mp3; sourceTree = "<group>"; };
 		43991E4929A69EA300084F47 /* guidedTour2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour2.mp3; sourceTree = "<group>"; };
 		43991E4A29A69EA300084F47 /* guidedTour3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour3.mp3; sourceTree = "<group>"; };
+		43991E4E29A6B7DA00084F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4350174329A6D67000EBDCF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4350174429A6D68D00EBDCF6 /* LocationManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4350174629A6D9D500EBDCF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4350174729A6D9E700EBDCF6 /* LocationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		43991E2629A6935900084F47 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +80,11 @@
 		43991E3129A6935900084F47 /* SmithBot */ = {
 			isa = PBXGroup;
 			children = (
+				43991E4E29A6B7DA00084F47 /* Info.plist */,
 				43991E3229A6935900084F47 /* SmithBotApp.swift */,
 				43991E3429A6935900084F47 /* ContentView.swift */,
+				4350174629A6D9D500EBDCF6 /* Views */,
+				4350174329A6D67000EBDCF6 /* Model */,
 				43991E4029A69CD700084F47 /* Sounds */,
 				43991E3629A6935900084F47 /* Assets.xcassets */,
 				43991E3829A6935900084F47 /* Preview Content */,
@@ -166,7 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				43991E3529A6935900084F47 /* ContentView.swift in Sources */,
+				4350174829A6D9E700EBDCF6 /* LocationView.swift in Sources */,
 				43991E3329A6935900084F47 /* SmithBotApp.swift in Sources */,
+				4350174529A6D68D00EBDCF6 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +324,9 @@
 				DEVELOPMENT_TEAM = 6622RAMHJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmithBot/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use your location to guide your tour";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to guide your tour.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,6 +356,9 @@
 				DEVELOPMENT_TEAM = 6622RAMHJL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmithBot/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use your location to guide your tour";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to guide your tour.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
