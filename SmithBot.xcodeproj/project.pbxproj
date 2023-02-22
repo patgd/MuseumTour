@@ -11,6 +11,10 @@
 		43991E3529A6935900084F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43991E3429A6935900084F47 /* ContentView.swift */; };
 		43991E3729A6935900084F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43991E3629A6935900084F47 /* Assets.xcassets */; };
 		43991E3A29A6935900084F47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43991E3929A6935900084F47 /* Preview Assets.xcassets */; };
+		43991E4529A69DAC00084F47 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 43991E4429A69DAC00084F47 /* Subsonic */; };
+		43991E4B29A69EA300084F47 /* guidedTour1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4829A69EA300084F47 /* guidedTour1.mp3 */; };
+		43991E4C29A69EA300084F47 /* guidedTour2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4929A69EA300084F47 /* guidedTour2.mp3 */; };
+		43991E4D29A69EA300084F47 /* guidedTour3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4A29A69EA300084F47 /* guidedTour3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,9 @@
 		43991E3429A6935900084F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43991E3629A6935900084F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43991E3929A6935900084F47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43991E4829A69EA300084F47 /* guidedTour1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour1.mp3; sourceTree = "<group>"; };
+		43991E4929A69EA300084F47 /* guidedTour2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour2.mp3; sourceTree = "<group>"; };
+		43991E4A29A69EA300084F47 /* guidedTour3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43991E4529A69DAC00084F47 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +61,7 @@
 			children = (
 				43991E3229A6935900084F47 /* SmithBotApp.swift */,
 				43991E3429A6935900084F47 /* ContentView.swift */,
+				43991E4029A69CD700084F47 /* Sounds */,
 				43991E3629A6935900084F47 /* Assets.xcassets */,
 				43991E3829A6935900084F47 /* Preview Content */,
 			);
@@ -65,6 +74,16 @@
 				43991E3929A6935900084F47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43991E4029A69CD700084F47 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				43991E4829A69EA300084F47 /* guidedTour1.mp3 */,
+				43991E4929A69EA300084F47 /* guidedTour2.mp3 */,
+				43991E4A29A69EA300084F47 /* guidedTour3.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +102,9 @@
 			dependencies = (
 			);
 			name = SmithBot;
+			packageProductDependencies = (
+				43991E4429A69DAC00084F47 /* Subsonic */,
+			);
 			productName = SmithBot;
 			productReference = 43991E2F29A6935900084F47 /* SmithBot.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 43991E2629A6935900084F47;
+			packageReferences = (
+				43991E4329A69DAC00084F47 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
 			productRefGroup = 43991E3029A6935900084F47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +152,9 @@
 			files = (
 				43991E3A29A6935900084F47 /* Preview Assets.xcassets in Resources */,
 				43991E3729A6935900084F47 /* Assets.xcassets in Resources */,
+				43991E4B29A69EA300084F47 /* guidedTour1.mp3 in Resources */,
+				43991E4C29A69EA300084F47 /* guidedTour2.mp3 in Resources */,
+				43991E4D29A69EA300084F47 /* guidedTour3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +367,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		43991E4329A69DAC00084F47 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		43991E4429A69DAC00084F47 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 43991E4329A69DAC00084F47 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43991E2729A6935900084F47 /* Project object */;
 }
