@@ -13,23 +13,17 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Museum 1")
-                .padding()
-            Button("Start Room 123 Tour") {
-                stopAllManagedSounds()
-                play(sound: "guidedTour1.mp3")
+            HStack {
+                RoomItemView(name: "Magna Carta")
+                RoomItemView(name: "Immigrants")
             }
-            Text("Museum 2")
-                .padding()
-            Button("Start Room 124 Tour") {
-                stopAllManagedSounds()
-                play(sound: "guidedTour2.mp3")
+            HStack {
+                RoomItemView(name: "Women")
+                RoomItemView(name: "African Americans")
             }
-            Text("Museum 3")
-                .padding()
-            Button("Start Room 125 Tour") {
-                stopAllManagedSounds()
-                play(sound: "guidedTour3.mp3")
+            HStack {
+                RoomItemView(name: "Magna Carta")
+                RoomItemView(name: "Magna Carta")
             }
         }
         .padding()

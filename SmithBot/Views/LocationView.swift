@@ -11,7 +11,6 @@ struct LocationView: View {
     
     @StateObject var locationManager = LocationManager()
     
-    
     var body: some View {
         VStack {
             Spacer()
@@ -20,6 +19,8 @@ struct LocationView: View {
             Button("Activate Location Services") {
                 locationManager.startLocationServices()
             }
+            Spacer()
+            Text("")
         }
     }
 }

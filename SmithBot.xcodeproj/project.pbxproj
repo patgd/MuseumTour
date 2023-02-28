@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		4350174529A6D68D00EBDCF6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350174429A6D68D00EBDCF6 /* LocationManager.swift */; };
 		4350174829A6D9E700EBDCF6 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350174729A6D9E700EBDCF6 /* LocationView.swift */; };
+		4368673729AD70A800DBDF7E /* RoomItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4368673629AD70A800DBDF7E /* RoomItemView.swift */; };
+		43886C5B29AD8D550036DFCF /* Magna Carta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43886C5A29AD8D550036DFCF /* Magna Carta.mp3 */; };
 		43991E3329A6935900084F47 /* SmithBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43991E3229A6935900084F47 /* SmithBotApp.swift */; };
 		43991E3529A6935900084F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43991E3429A6935900084F47 /* ContentView.swift */; };
 		43991E3729A6935900084F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43991E3629A6935900084F47 /* Assets.xcassets */; };
 		43991E3A29A6935900084F47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43991E3929A6935900084F47 /* Preview Assets.xcassets */; };
 		43991E4529A69DAC00084F47 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 43991E4429A69DAC00084F47 /* Subsonic */; };
-		43991E4B29A69EA300084F47 /* guidedTour1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4829A69EA300084F47 /* guidedTour1.mp3 */; };
 		43991E4C29A69EA300084F47 /* guidedTour2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4929A69EA300084F47 /* guidedTour2.mp3 */; };
 		43991E4D29A69EA300084F47 /* guidedTour3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4A29A69EA300084F47 /* guidedTour3.mp3 */; };
 /* End PBXBuildFile section */
@@ -22,12 +23,13 @@
 /* Begin PBXFileReference section */
 		4350174429A6D68D00EBDCF6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		4350174729A6D9E700EBDCF6 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		4368673629AD70A800DBDF7E /* RoomItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItemView.swift; sourceTree = "<group>"; };
+		43886C5A29AD8D550036DFCF /* Magna Carta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Magna Carta.mp3"; sourceTree = "<group>"; };
 		43991E2F29A6935900084F47 /* SmithBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmithBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43991E3229A6935900084F47 /* SmithBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmithBotApp.swift; sourceTree = "<group>"; };
 		43991E3429A6935900084F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43991E3629A6935900084F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43991E3929A6935900084F47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		43991E4829A69EA300084F47 /* guidedTour1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour1.mp3; sourceTree = "<group>"; };
 		43991E4929A69EA300084F47 /* guidedTour2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour2.mp3; sourceTree = "<group>"; };
 		43991E4A29A69EA300084F47 /* guidedTour3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour3.mp3; sourceTree = "<group>"; };
 		43991E4E29A6B7DA00084F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				4350174729A6D9E700EBDCF6 /* LocationView.swift */,
+				4368673629AD70A800DBDF7E /* RoomItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,7 +106,7 @@
 		43991E4029A69CD700084F47 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				43991E4829A69EA300084F47 /* guidedTour1.mp3 */,
+				43886C5A29AD8D550036DFCF /* Magna Carta.mp3 */,
 				43991E4929A69EA300084F47 /* guidedTour2.mp3 */,
 				43991E4A29A69EA300084F47 /* guidedTour3.mp3 */,
 			);
@@ -174,9 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43886C5B29AD8D550036DFCF /* Magna Carta.mp3 in Resources */,
 				43991E3A29A6935900084F47 /* Preview Assets.xcassets in Resources */,
 				43991E3729A6935900084F47 /* Assets.xcassets in Resources */,
-				43991E4B29A69EA300084F47 /* guidedTour1.mp3 in Resources */,
 				43991E4C29A69EA300084F47 /* guidedTour2.mp3 in Resources */,
 				43991E4D29A69EA300084F47 /* guidedTour3.mp3 in Resources */,
 			);
@@ -191,6 +194,7 @@
 			files = (
 				43991E3529A6935900084F47 /* ContentView.swift in Sources */,
 				4350174829A6D9E700EBDCF6 /* LocationView.swift in Sources */,
+				4368673729AD70A800DBDF7E /* RoomItemView.swift in Sources */,
 				43991E3329A6935900084F47 /* SmithBotApp.swift in Sources */,
 				4350174529A6D68D00EBDCF6 /* LocationManager.swift in Sources */,
 			);

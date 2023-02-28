@@ -13,11 +13,13 @@ final class LocationManager: NSObject, ObservableObject {
     var locationManager = CLLocationManager()
     
     @Published var locationString = ""
+    var previousLocation: CLLocation?
     
     override init() {
         super.init()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.allowsBackgroundLocationUpdates = true
     }
     
     func startLocationServices() {
@@ -41,7 +43,14 @@ extension LocationManager: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let latest = locations.first else { return }
-        locationString = "location: \(latest.description)"
+        if previousLocation == nil {
+            previousLocation = latest
+        } else {
+            let distanceInMeters = previousLocation?.distance(from: latest) ?? 0
+            previousLocation = latest
+            locationString = "You are \(Int(distanceInMeters)) meters from your start point."
+        }
+        print(latest)
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
