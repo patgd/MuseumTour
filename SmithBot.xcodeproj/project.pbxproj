@@ -18,6 +18,11 @@
 		43991E4529A69DAC00084F47 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 43991E4429A69DAC00084F47 /* Subsonic */; };
 		43991E4C29A69EA300084F47 /* guidedTour2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4929A69EA300084F47 /* guidedTour2.mp3 */; };
 		43991E4D29A69EA300084F47 /* guidedTour3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43991E4A29A69EA300084F47 /* guidedTour3.mp3 */; };
+		43A09A1329AFBAB0000C7880 /* NeumorphicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A09A1229AFBAB0000C7880 /* NeumorphicCard.swift */; };
+		43A09A1729AFBD14000C7880 /* NeumorphicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A09A1629AFBD14000C7880 /* NeumorphicButton.swift */; };
+		43A09A1929AFC390000C7880 /* Immigrants.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43A09A1829AFC390000C7880 /* Immigrants.mp3 */; };
+		43A09A1B29AFC4D9000C7880 /* Women.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43A09A1A29AFC4D9000C7880 /* Women.mp3 */; };
+		43A09A1D29AFC5A4000C7880 /* African Americans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43A09A1C29AFC5A4000C7880 /* African Americans.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		43991E4929A69EA300084F47 /* guidedTour2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour2.mp3; sourceTree = "<group>"; };
 		43991E4A29A69EA300084F47 /* guidedTour3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guidedTour3.mp3; sourceTree = "<group>"; };
 		43991E4E29A6B7DA00084F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		43A09A1229AFBAB0000C7880 /* NeumorphicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicCard.swift; sourceTree = "<group>"; };
+		43A09A1629AFBD14000C7880 /* NeumorphicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButton.swift; sourceTree = "<group>"; };
+		43A09A1829AFC390000C7880 /* Immigrants.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Immigrants.mp3; sourceTree = "<group>"; };
+		43A09A1A29AFC4D9000C7880 /* Women.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Women.mp3; sourceTree = "<group>"; };
+		43A09A1C29AFC5A4000C7880 /* African Americans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "African Americans.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				4350174729A6D9E700EBDCF6 /* LocationView.swift */,
+				43A09A1229AFBAB0000C7880 /* NeumorphicCard.swift */,
 				4368673629AD70A800DBDF7E /* RoomItemView.swift */,
 			);
 			path = Views;
@@ -86,6 +97,7 @@
 				43991E4E29A6B7DA00084F47 /* Info.plist */,
 				43991E3229A6935900084F47 /* SmithBotApp.swift */,
 				43991E3429A6935900084F47 /* ContentView.swift */,
+				43A09A1629AFBD14000C7880 /* NeumorphicButton.swift */,
 				4350174629A6D9D500EBDCF6 /* Views */,
 				4350174329A6D67000EBDCF6 /* Model */,
 				43991E4029A69CD700084F47 /* Sounds */,
@@ -107,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				43886C5A29AD8D550036DFCF /* Magna Carta.mp3 */,
+				43A09A1829AFC390000C7880 /* Immigrants.mp3 */,
+				43A09A1A29AFC4D9000C7880 /* Women.mp3 */,
+				43A09A1C29AFC5A4000C7880 /* African Americans.mp3 */,
 				43991E4929A69EA300084F47 /* guidedTour2.mp3 */,
 				43991E4A29A69EA300084F47 /* guidedTour3.mp3 */,
 			);
@@ -179,7 +194,10 @@
 			files = (
 				43886C5B29AD8D550036DFCF /* Magna Carta.mp3 in Resources */,
 				43991E3A29A6935900084F47 /* Preview Assets.xcassets in Resources */,
+				43A09A1D29AFC5A4000C7880 /* African Americans.mp3 in Resources */,
+				43A09A1B29AFC4D9000C7880 /* Women.mp3 in Resources */,
 				43991E3729A6935900084F47 /* Assets.xcassets in Resources */,
+				43A09A1929AFC390000C7880 /* Immigrants.mp3 in Resources */,
 				43991E4C29A69EA300084F47 /* guidedTour2.mp3 in Resources */,
 				43991E4D29A69EA300084F47 /* guidedTour3.mp3 in Resources */,
 			);
@@ -193,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43991E3529A6935900084F47 /* ContentView.swift in Sources */,
+				43A09A1729AFBD14000C7880 /* NeumorphicButton.swift in Sources */,
+				43A09A1329AFBAB0000C7880 /* NeumorphicCard.swift in Sources */,
 				4350174829A6D9E700EBDCF6 /* LocationView.swift in Sources */,
 				4368673729AD70A800DBDF7E /* RoomItemView.swift in Sources */,
 				43991E3329A6935900084F47 /* SmithBotApp.swift in Sources */,
