@@ -1,13 +1,16 @@
 //
 //  ContentView.swift
-//  SmithBot
+//  MuseumTour
 //
-//  Created by pat on 2/22/23.
+//  Created by pat on 3/2/23.
 //
 
 import SwiftUI
 import Subsonic
-import CoreLocation
+
+extension Color {
+    static let offWhite = Color(red: 225 / 255, green: 225 / 255, blue: 235 / 255)
+}
 
 struct ContentView: View {
     
@@ -23,9 +26,6 @@ struct ContentView: View {
                     RoomItemView(name: "Women")
                     RoomItemView(name: "African Americans")
                 }
-//                HStack {
-//                    NeumorphicCard()
-//                }
             }
         }
             .edgesIgnoringSafeArea(.all)

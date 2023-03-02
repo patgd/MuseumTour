@@ -31,7 +31,6 @@ struct RoomItemView: View {
                 .cornerRadius(15)
         )
         .cornerRadius(4.0)
-//        .frame(maxWidth: 190, maxHeight: 130)
         .background(.black)
         .cornerRadius(15)
         .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)

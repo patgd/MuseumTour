@@ -1,18 +1,17 @@
 //
-//  SmithBotApp.swift
-//  SmithBot
+//  MuseumTourApp.swift
+//  MuseumTour
 //
-//  Created by pat on 2/22/23.
+//  Created by pat on 3/2/23.
 //
 
 import SwiftUI
 
 @main
-struct SmithBotApp: App {
+struct MuseumTourApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-//            LocationView()
         }
     }
 }

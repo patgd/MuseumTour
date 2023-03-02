@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		436693F829B13310007BED1A /* MuseumTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436693F729B13310007BED1A /* MuseumTourApp.swift */; };
+		436693FA29B13310007BED1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436693F929B13310007BED1A /* ContentView.swift */; };
+		436693FF29B13312007BED1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436693FE29B13312007BED1A /* Preview Assets.xcassets */; };
+		4366940729B13547007BED1A /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 4366940629B13547007BED1A /* Subsonic */; };
+		4366940D29B13589007BED1A /* African Americans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4366940929B13589007BED1A /* African Americans.mp3 */; };
+		4366940E29B13589007BED1A /* Women.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4366940A29B13589007BED1A /* Women.mp3 */; };
+		4366940F29B13589007BED1A /* Magna Carta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4366940B29B13589007BED1A /* Magna Carta.mp3 */; };
+		4366941029B13589007BED1A /* Immigrants.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4366940C29B13589007BED1A /* Immigrants.mp3 */; };
+		4366941229B13590007BED1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4366941129B13590007BED1A /* Assets.xcassets */; };
+		4366941429B135B1007BED1A /* RoomItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366941329B135B1007BED1A /* RoomItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		436693F429B13310007BED1A /* MuseumTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseumTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436693F729B13310007BED1A /* MuseumTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumTourApp.swift; sourceTree = "<group>"; };
+		436693F929B13310007BED1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		436693FE29B13312007BED1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4366940929B13589007BED1A /* African Americans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "African Americans.mp3"; sourceTree = "<group>"; };
+		4366940A29B13589007BED1A /* Women.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Women.mp3; sourceTree = "<group>"; };
+		4366940B29B13589007BED1A /* Magna Carta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Magna Carta.mp3"; sourceTree = "<group>"; };
+		4366940C29B13589007BED1A /* Immigrants.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Immigrants.mp3; sourceTree = "<group>"; };
+		4366941129B13590007BED1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SmithBot/SmithBot/Assets.xcassets; sourceTree = "<group>"; };
+		4366941329B135B1007BED1A /* RoomItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436693F129B13310007BED1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4366940729B13547007BED1A /* Subsonic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		436693EB29B13310007BED1A = {
+			isa = PBXGroup;
+			children = (
+				436693F629B13310007BED1A /* MuseumTour */,
+				436693F529B13310007BED1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		436693F529B13310007BED1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				436693F429B13310007BED1A /* MuseumTour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		436693F629B13310007BED1A /* MuseumTour */ = {
+			isa = PBXGroup;
+			children = (
+				436693F729B13310007BED1A /* MuseumTourApp.swift */,
+				436693F929B13310007BED1A /* ContentView.swift */,
+				4366941329B135B1007BED1A /* RoomItemView.swift */,
+				4366940829B1357A007BED1A /* Sounds */,
+				4366941129B13590007BED1A /* Assets.xcassets */,
+				436693FD29B13312007BED1A /* Preview Content */,
+			);
+			path = MuseumTour;
+			sourceTree = "<group>";
+		};
+		436693FD29B13312007BED1A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				436693FE29B13312007BED1A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4366940829B1357A007BED1A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4366940929B13589007BED1A /* African Americans.mp3 */,
+				4366940C29B13589007BED1A /* Immigrants.mp3 */,
+				4366940B29B13589007BED1A /* Magna Carta.mp3 */,
+				4366940A29B13589007BED1A /* Women.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		436693F329B13310007BED1A /* MuseumTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4366940229B13312007BED1A /* Build configuration list for PBXNativeTarget "MuseumTour" */;
+			buildPhases = (
+				436693F029B13310007BED1A /* Sources */,
+				436693F129B13310007BED1A /* Frameworks */,
+				436693F229B13310007BED1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseumTour;
+			packageProductDependencies = (
+				4366940629B13547007BED1A /* Subsonic */,
+			);
+			productName = MuseumTour;
+			productReference = 436693F429B13310007BED1A /* MuseumTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		436693EC29B13310007BED1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					436693F329B13310007BED1A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 436693EF29B13310007BED1A /* Build configuration list for PBXProject "MuseumTour" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 436693EB29B13310007BED1A;
+			packageReferences = (
+				4366940529B13547007BED1A /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
+			productRefGroup = 436693F529B13310007BED1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				436693F329B13310007BED1A /* MuseumTour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436693F229B13310007BED1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4366940F29B13589007BED1A /* Magna Carta.mp3 in Resources */,
+				436693FF29B13312007BED1A /* Preview Assets.xcassets in Resources */,
+				4366940E29B13589007BED1A /* Women.mp3 in Resources */,
+				4366941029B13589007BED1A /* Immigrants.mp3 in Resources */,
+				4366941229B13590007BED1A /* Assets.xcassets in Resources */,
+				4366940D29B13589007BED1A /* African Americans.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436693F029B13310007BED1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436693FA29B13310007BED1A /* ContentView.swift in Sources */,
+				4366941429B135B1007BED1A /* RoomItemView.swift in Sources */,
+				436693F829B13310007BED1A /* MuseumTourApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4366940029B13312007BED1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4366940129B13312007BED1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4366940329B13312007BED1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseumTour/Preview Content\"";
+				DEVELOPMENT_TEAM = 6622RAMHJL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pat.win.MuseumTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4366940429B13312007BED1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseumTour/Preview Content\"";
+				DEVELOPMENT_TEAM = 6622RAMHJL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pat.win.MuseumTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436693EF29B13310007BED1A /* Build configuration list for PBXProject "MuseumTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4366940029B13312007BED1A /* Debug */,
+				4366940129B13312007BED1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4366940229B13312007BED1A /* Build configuration list for PBXNativeTarget "MuseumTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4366940329B13312007BED1A /* Debug */,
+				4366940429B13312007BED1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4366940529B13547007BED1A /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4366940629B13547007BED1A /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4366940529B13547007BED1A /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 436693EC29B13310007BED1A /* Project object */;
+}
