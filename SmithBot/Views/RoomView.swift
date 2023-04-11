@@ -8,26 +8,48 @@
 import SwiftUI
 
 struct RoomView: View {
+//    @Binding var isPlaying: Bool
+    let roomName: String
+    
     var body: some View {
-        ZStack {
-            Color.offWhite
-            VStack {
-                HStack {
-                    ExhibitView(name: "Magna Carta")
-                    ExhibitView(name: "Immigrants")
+        VStack {
+            if roomName == "Rubenstein Gallery" {
+                ZStack {
+                    Color.offWhite
+                    VStack {
+                        HStack {
+                            ExhibitView(name: "Magna Carta")
+                            ExhibitView(name: "Immigrants")
+                        }
+                        HStack {
+                            ExhibitView(name: "Women")
+                            ExhibitView(name: "African Americans")
+                        }
+                    }
                 }
-                HStack {
-                    ExhibitView(name: "Women")
-                    ExhibitView(name: "African Americans")
+            } else if roomName == "Rotonda" {
+                ZStack {
+                    Color.offWhite
+                    VStack {
+                        HStack {
+                            ExhibitView(name: "Declaration of Independence")
+                            ExhibitView(name: "Bill of Rights")
+                        }
+                        HStack {
+                            ExhibitView(name: "The Constitution")
+//                            ExhibitView(name: "African Americans")
+                        }
+                    }
                 }
             }
         }
-        .edgesIgnoringSafeArea(.all)
+        .ignoresSafeArea()
     }
 }
 
 struct RoomView_Previews: PreviewProvider {
     static var previews: some View {
-        RoomView()
+//        RoomView(isPlaying: false)
+        RoomView(roomName: "Rotonda")
     }
 }

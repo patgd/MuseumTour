@@ -17,6 +17,7 @@ struct EntranceView: View {
 }
 
 struct ContentView: View {
+    @State private var isPlaying = false
     
     var body: some View {
         ZStack {
@@ -26,21 +27,24 @@ struct ContentView: View {
                         .edgesIgnoringSafeArea(.all)
                     VStack {
                         NavigationLink {
-                            RoomView()
+//                            RoomView(isPlaying: $isPlaying)
+                            RoomView(roomName: "Rubenstein Gallery")
                         } label: {
                             CardView(imageName: "Rubenstein Gallery")
                         }
                         .padding(20)
                         
                         NavigationLink {
-                            RoomView()
+//                            RoomView(isPlaying: $isPlaying)
+                            RoomView(roomName: "Rotonda")
                         } label: {
-                            CardView(imageName: "Rubenstein Gallery")
+                            CardView(imageName: "Rotonda")
                         }
                         .padding(20)
                         
                         NavigationLink {
-                            RoomView()
+//                            RoomView(isPlaying: $isPlaying)
+                            RoomView(roomName: "Rubenstein Gallery")
                         } label: {
                             CardView(imageName: "Rubenstein Gallery")
                         }

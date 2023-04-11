@@ -11,10 +11,12 @@ import Subsonic
 struct ExhibitView: View {
     let itemName: String
     let soundName: String
+//    @Binding var isPlaying: Bool
     
     init(name itemName: String) {
         self.itemName = itemName
         self.soundName = "\(itemName).mp3"
+//        self.isPlaying = isPlaying
     }
     
     var body: some View {
